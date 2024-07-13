@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 300px; padding: 10px; font-family: Arial, sans-serif; }
+    label { display: block; margin-top: 10px; }
+    input[type="color"] { width: 100%; }
+    input[type="range"] { width: 100%; }
+  </style>
+</head>
+<body>
+  <h2>Custom Selection Color</h2>
+  <label>
+    <input type="checkbox" id="enabled"> Enable Custom Selection
+  </label>
+  <label>
+    Color:
+    <input type="color" id="color" value="#D3D3D3">
+  </label>
+  <label>
+    Opacity:
+    <input type="range" id="opacity" min="0" max="1" step="0.01" value="0.17">
+  </label>
+  <script src="popup.js"></script>
+</body>
+</html>
