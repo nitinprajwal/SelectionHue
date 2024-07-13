@@ -19,6 +19,7 @@
 
 SelectionHue is a powerful browser extension that allows you to customize your text selection color and opacity across all websites. Say goodbye to the default blue selection and hello to a personalized browsing experience!
 
+
 ## ✨ Features
 
 - 🎚️ Toggle custom selection on/off
